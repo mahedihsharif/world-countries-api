@@ -1,0 +1,40 @@
+  body{
+    margin: 0 auto;
+  }
+  #container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin:2% 0 2% 5%;
+      grid-gap: 40px;
+  }
+  .country{
+      border:1px solid black;
+      padding: 20px;
+      border-radius:20px;
+      text-align: center;
+      width: 300px;
+
+  }
+ .country-container{
+     font-size: 30px;
+     font-weight: bold;
+ }
+ .capital-container{
+    font-size: 20px;
+}
+.btn{
+    padding:4px;
+    font-size:15px;
+     
+}
+#details{
+    margin:2% 0 1% 38%;
+    padding: 5px;
+    width:400px ;
+    
+    
+    text-align: center;
+}
+#details img{
+    width: 300px;
+}
